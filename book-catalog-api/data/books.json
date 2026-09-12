@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "year": 1937
+  },
+  {
+    "id": 2,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "genre": "Science Fiction",
+    "year": 1965
+  },
+  {
+    "id": 3,
+    "title": "Foundation",
+    "author": "Isaac Asimov",
+    "genre": "Science Fiction",
+    "year": 1951
+  },
+  {
+    "id": 4,
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "genre": "Fantasy",
+    "year": 2007
+  },
+  {
+    "id": 5,
+    "title": "Neuromancer",
+    "author": "William Gibson",
+    "genre": "Science Fiction",
+    "year": 1984
+  },
+  {
+    "id": 6,
+    "title": "The Way of Kings",
+    "author": "Brandon Sanderson",
+    "genre": "Fantasy",
+    "year": 2010
+  },
+  {
+    "id": 7,
+    "title": "Dune Dune",
+    "author": "Frank Herbert",
+    "genre": "Science Fiction",
+    "year": 1965
+  },
+
+  {
+    "id": 8,
+    "title": "The Fellowship of the Ring",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "year": 1954
+  }
+]
