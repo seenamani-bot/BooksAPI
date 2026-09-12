@@ -2,12 +2,22 @@ import json
 from fastapi import FastAPI,HTTPException
 from pathlib import Path
 
+from pydantic import BaseModel
+
+
 app=FastAPI()
 
 DATA_FILE=Path(__file__).parent /"data"/"books.json"
 
 with open (DATA_FILE,"r") as f:
     books=json.load(f)
+    
+class Book(BaseModel):
+    id:int
+    title:str
+    author:str
+    genre:str
+    year:int
     
     
 @app.get("/health")
